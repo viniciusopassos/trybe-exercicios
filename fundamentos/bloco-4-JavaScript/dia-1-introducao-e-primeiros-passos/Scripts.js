@@ -152,7 +152,7 @@
   //------------------------------------------------------ fim aula operadores lógicos
   
   // switch -- case
-  let trafficlight = "verde";
+  /*let trafficlight = "verde";
 
   switch (trafficlight){
     case "vermelho":
@@ -169,4 +169,4 @@
 
     default:
       console.log("valor não identificado.")
-  }
+  }*/
