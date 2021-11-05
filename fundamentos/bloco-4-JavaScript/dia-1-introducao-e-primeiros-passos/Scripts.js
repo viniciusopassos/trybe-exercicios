@@ -48,106 +48,125 @@
 
 // OPERADOR AND
 //ex1.
-const comida = 'pão na chapa';
-const bebida = 'cafézinho';
+//const comida = 'pão na chapa';
+//const bebida = 'cafézinho';
 
-if (bebida === 'cafézinho' && comida === 'pão na chapa') {
-  console.log('Muito obrigado pela refeição :)');
-} else {
-  console.log('Acho que houve um engano com meu pedido');
-}
+//if (bebida === 'cafézinho' && comida === 'pão na chapa') {
+ // console.log('Muito obrigado pela refeição :)');
+//} else {
+//  console.log('Acho que houve um engano com meu pedido');
+//}
 
 //ex2.
-const conditionOne = true;
-const conditionTwo = false;
+//const conditionOne = true;
+//const conditionTwo = false;
 
-console.log(conditionOne && conditionTwo);
+//console.log(conditionOne && conditionTwo);
 
 //ex3.
-const cenouras = true;
-const leite = true;
-const arroz = true;
-const feijao = true;
+//const cenouras = true;
+//const leite = true;
+//const arroz = true;
+//const feijao = true;
 
-const listaDeCompras = cenouras && leite && arroz && feijao;
+//const listaDeCompras = cenouras && leite && arroz && feijao;
 
 //ex4.
-console.log(true && true); // true
-console.log(true && false); // false
-console.log(false && true); // false
-console.log(false && false); // false
+//console.log(true && true); // true
+//console.log(true && false); // false
+//console.log(false && true); // false
+//console.log(false && false); // false
 
 //ex.Final
-const currentHour = 15;
-let msg = " ";
+//const currentHour = 15;
+//let msg = " ";
 
-if (currentHour >= 22) {
-    msg = "Não deveríamos comer nada, é hora de dormir";
-    console.log(msg);
-} else if (currentHour >= 18 && currentHour < 22) {
-    msg = "Rango da noite, vamos jantar :D";
-    console.log(msg);
-} else if (currentHour >= 14 && currentHour < 18) {
-    msg = "Vamos fazer um bolo para o café da tarde?";
-    console.log(msg);
-}else if (currentHour >= 11 && currentHour < 14) {
-    msg = "Hora do almoço!!";
-    console.log(msg);
-}else if (currentHour >= 4 && currentHour < 11){
-    console.log("Hmmm, cheiro de café recém passando");
-}else {
-    console.log(msg);
-}
+//if (currentHour >= 22) {
+  //  msg = "Não deveríamos comer nada, é hora de dormir";
+  //  console.log(msg);
+//} else if (currentHour >= 18 && currentHour < 22) {
+//    msg = "Rango da noite, vamos jantar :D";
+//    console.log(msg);
+//} else if (currentHour >= 14 && currentHour < 18) {
+//    msg = "Vamos fazer um bolo para o café da tarde?";
+//    console.log(msg);
+//}else if (currentHour >= 11 && currentHour < 14) {
+//    msg = "Hora do almoço!!";
+ //   console.log(msg);
+//}else if (currentHour >= 4 && currentHour < 11){
+ //   console.log("Hmmm, cheiro de café recém passando");
+//}else {
+ //   console.log(msg);
+//}
 
 // OPERADOR OR
 // ex1.
-const bebidaPrincipal =  'cafezinho';
-const bebidaAlternativa = 'suco de laranja';
+//const bebidaPrincipal =  'cafezinho';
+//const bebidaAlternativa = 'suco de laranja';
 
-if (bebidaPrincipal === 'cafezinho' || bebidaAlternativa === 'suco de laranja') {
-  console.log("Obrigado por me atender :D")
-} else {
-  console.log("Ei, eu não pedi isso!");
-}
+//if (bebidaPrincipal === 'cafezinho' || bebidaAlternativa === 'suco de laranja') {
+//  console.log("Obrigado por me atender :D")
+//} else {
+ // console.log("Ei, eu não pedi isso!");
+//}
 
 //ex2.
-console.log(true || true); // true
-console.log(true || false); // true
-console.log(false || true); // true
-console.log(false || false); // false
+//console.log(true || true); // true
+//console.log(true || false); // true
+//console.log(false || true); // true
+//console.log(false || false); // false
 
 //ex.Final
-let weekDay = "quarta-feira";
+//let weekDay = "quarta-feira";
 
-if (weekDay === "segunda-feira" || weekDay === "terca-feira" || weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira") {
-    console.log("Oba, mais um dia de aprendizado na TRYBE!! :D")
-  } else {
-    console.log("FINALMENTE!! Descanso merecido uuuhuull");
-  }
+//if (weekDay === "segunda-feira" || weekDay === "terca-feira" || weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira") {
+  //  console.log("Oba, mais um dia de aprendizado na TRYBE!! :D")
+  //} else {
+  //  console.log("FINALMENTE!! Descanso merecido uuuhuull");
+ // }
 
   // OPERADOR NOT
   //ex1.
-  console.log((2 + 2) === 4);
+  //console.log((2 + 2) === 4);
 
   //ex2.
-  console.log(!(2 + 2) === 4);
+  //console.log(!(2 + 2) === 4);
 
   //ex3.(strings)
-  const squirtle = "melhor pokemon inicial";
+  //const squirtle = "melhor pokemon inicial";
 
-  console.log(!squirtle); // false
+  //console.log(!squirtle); // false
 
   //ex4.(numeros)
-  console.log(!42); // false
+  //console.log(!42); // false
 
-  console.log(!0); // true
+  //console.log(!0); // true
   // O número 0 tem o valor "falsy" no javascript. Logo, seu oposto é true.
 
   //ex5.(valores nulos)
-  console.log(!null); // true
+  //console.log(!null); // true
 
   //ex6.(valores indefinidos)
-  console.log(!undefined); // true
+  //console.log(!undefined); // true
 
   //------------------------------------------------------ fim aula operadores lógicos
   
+  // switch -- case
+  let trafficlight = "verde";
+
+  switch (trafficlight){
+    case "vermelho":
+      console.log("Pare");
+      break;
+
+    case "amarelo":
+      console.log("Atenção");
+      break;
+
+    case "verde":
+      console.log("Siga");
+      break; 
+
+    default:
+      console.log("valor não identificado.")
+  }
