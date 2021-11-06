@@ -52,7 +52,7 @@ if ((l1 + l2 + l3) === 180){
 }*/
 
 //ex6. referências para fazer o exercicio https://blog.megajogos.com.br/conheca-as-pecas-do-xadrez/ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
-let pecaXadrez = "bishop";
+/*let pecaXadrez = "bishop";
 
 if (pecaXadrez.toLowerCase() === "rei"){
   console.log("Pode ser movimentado em qualquer direção do tabuleiro, mas apenas de casa em casa.");
@@ -68,4 +68,23 @@ if (pecaXadrez.toLowerCase() === "rei"){
   console.log("Pode apenas realizar movimentos frontais, de forma que o primeiro movimento de cada peão abranja até duas casas, e os demais se limitam a uma casa à frente. O ataque do peão sempre ocorre na diagonal.");
 }else {
   console.log("Ops!!Essa peça não é de xadrez, favor escolher uma peça do xadrez válida.")
+}*/
+
+//ex7.
+const nota = 500;
+
+if (nota <= 100 && nota >= 90){
+   console.log("A");
+}else if (nota < 90 && nota >= 80 ) {
+  console.log("B");
+}else if (nota < 80 && nota >= 70 ) {
+  console.log("C");
+}else if (nota < 70 && nota >= 60 ) {
+  console.log("D");
+}else if (nota < 60 && nota >= 50 ) {
+  console.log("E");
+}else if (nota < 50 && nota >= 0) {
+  console.log("F");
+}else {
+    console.log("ERRO!! A nota deve ser um valor entre 0% e 100%.");
 }
