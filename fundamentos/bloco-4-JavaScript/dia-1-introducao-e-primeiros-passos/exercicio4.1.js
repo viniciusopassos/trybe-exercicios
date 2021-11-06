@@ -90,7 +90,7 @@ if (nota <= 100 && nota >= 90){
 }*/
 
 //ex8.
-const num1 = 1;
+/*const num1 = 1;
 const num2 = 5;
 const num3 = 6;
 
@@ -98,4 +98,16 @@ if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0){
   console.log("true");
 }else{
   console.log("false");
-}
+}*/
+
+//ex9.
+const num1 = 1;
+const num2 = 4;
+const num3 = 6;
+
+if (num1 % 2 === 1 || num2 % 2 === 1 || num3 % 2 === 1){
+  console.log("true");
+}else{
+  console.log("false");
+} 
+
