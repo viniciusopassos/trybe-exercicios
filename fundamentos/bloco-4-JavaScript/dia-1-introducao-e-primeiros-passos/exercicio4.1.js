@@ -101,7 +101,7 @@ if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0){
 }*/
 
 //ex9.
-const num1 = 1;
+/*const num1 = 1;
 const num2 = 4;
 const num3 = 6;
 
@@ -109,5 +109,16 @@ if (num1 % 2 === 1 || num2 % 2 === 1 || num3 % 2 === 1){
   console.log("true");
 }else{
   console.log("false");
-} 
+}*/
+
+//ex10.
+const vCustoProd = 10;
+const vVendaProd = 100;
+const vCustoTotal = 10 * (20/100) + 10;
+const vLucroProd = vVendaProd - vCustoTotal;
+const nVendaProd = 10000;
+const lucro = vLucroProd * nVendaProd;
+
+console.log("A empresa terá um lucro de", lucro ,"ao vender dez mil desses produtos");
+
 
