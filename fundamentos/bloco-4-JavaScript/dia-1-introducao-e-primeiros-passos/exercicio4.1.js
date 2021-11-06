@@ -52,7 +52,7 @@ if ((l1 + l2 + l3) === 180){
 }*/
 
 //ex6. referências para fazer o exercicio https://blog.megajogos.com.br/conheca-as-pecas-do-xadrez/ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
-let pecaXadrez = "Rei";
+let pecaXadrez = "bishop";
 
 if (pecaXadrez.toLowerCase() === "rei"){
   console.log("Pode ser movimentado em qualquer direção do tabuleiro, mas apenas de casa em casa.");
@@ -66,4 +66,6 @@ if (pecaXadrez.toLowerCase() === "rei"){
   console.log("Realiza movimentos em “L”, ou seja, duas casas em um sentido e uma casa em sentido perpendicular àquele, em qualquer direção.");
 }else if (pecaXadrez.toLowerCase() === "peao"){
   console.log("Pode apenas realizar movimentos frontais, de forma que o primeiro movimento de cada peão abranja até duas casas, e os demais se limitam a uma casa à frente. O ataque do peão sempre ocorre na diagonal.");
+}else {
+  console.log("Ops!!Essa peça não é de xadrez, favor escolher uma peça do xadrez válida.")
 }
