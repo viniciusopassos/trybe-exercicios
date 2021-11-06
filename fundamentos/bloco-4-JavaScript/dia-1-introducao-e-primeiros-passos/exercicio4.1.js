@@ -71,7 +71,7 @@ if (pecaXadrez.toLowerCase() === "rei"){
 }*/
 
 //ex7.
-const nota = 500;
+/*const nota = 500;
 
 if (nota <= 100 && nota >= 90){
    console.log("A");
@@ -87,4 +87,15 @@ if (nota <= 100 && nota >= 90){
   console.log("F");
 }else {
     console.log("ERRO!! A nota deve ser um valor entre 0% e 100%.");
+}*/
+
+//ex8.
+const num1 = 1;
+const num2 = 5;
+const num3 = 6;
+
+if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0){
+  console.log("true");
+}else{
+  console.log("false");
 }
