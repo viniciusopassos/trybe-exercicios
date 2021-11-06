@@ -112,7 +112,7 @@ if (num1 % 2 === 1 || num2 % 2 === 1 || num3 % 2 === 1){
 }*/
 
 //ex10.
-const vCustoProd = 10;
+/*const vCustoProd = 10;
 const vVendaProd = 100;
 const vCustoTotal = 10 * (20/100) + 10;
 const vLucroProd = vVendaProd - vCustoTotal;
@@ -120,5 +120,38 @@ const nVendaProd = 10000;
 const lucro = vLucroProd * nVendaProd;
 
 console.log("A empresa terá um lucro de", lucro ,"ao vender dez mil desses produtos");
+*/
 
+//ex11.
+const salBruto = 3000;
+let INSS = 0;
+let IR = 0;
+let salLiquido = 0;
+let salBase = 0;
 
+if (salBruto <= 1556.94){
+  INSS = salBruto * (8/100);
+}else if (salBruto >= 1556.95 && salBruto <= 2594.92){
+  INSS = salBruto * (9/100);
+}else if (salBruto >= 2594.93 && salBruto <= 5189.82){
+  INSS = salBruto * (11/100);
+}else if(salBruto > 5189.82){
+  INSS = 570.88;
+}
+salBase = salBruto - INSS;
+console.log(salBase);
+
+if (salBase <= 1903.98){
+  IR = 0;
+}else if (salBase >= 1903.99 && salBase <= 2826.65){
+  IR = salBase * (7.5/100) - 142,80;
+}else if (salBase >= 2826.66 && salBase <= 3751.05){
+  IR = salBase * (15/100) - 354.80;
+}else if (salBase >= 3751.06 && salBase <= 4664.68){
+  IR = salBase * (22.5/100) - 636.13;
+}else if(salBase > 4664.68){
+  IR = salBase * (27.5/100) - 869.36;
+}
+
+salLiquido = salBruto - INSS - IR;
+console.log("Olá, seu salário líquido será:", salLiquido);
