@@ -8,9 +8,38 @@
 
 .paragrafos {
     background-color: rgb(240, 240, 240);
-    width: 5%;
+    width: 50%;
     height: 300px;
     /*overflow: hidden;*/
     overflow-y: auto;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
+/*
+body {
+    font-family: fantasy;
+    color: rgb(3, 174, 213);
+}
+
+#astro {
+    width: 450px;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+    z-index: 1;
+}
+
+#coroa {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+    z-index: 2;
+}
+
+#oculos {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+    z-index: 3;
+}*/
