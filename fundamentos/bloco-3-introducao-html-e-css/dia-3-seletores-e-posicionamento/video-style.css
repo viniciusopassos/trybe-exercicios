@@ -1,5 +1,5 @@
 .img { 
-    width: 500px;
+    width: 50px;
 }
 
 .css {
@@ -21,6 +21,35 @@ li:hover {
 
 li:active {
     color: blue;
+}
+
+p {
+    font-family: monospace;
+}
+
+#aprendizado {
+    font-family: serif;
+}
+
+.fato{
+    border-top: 1px solid rgb(222, 222, 222);
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.perigo {
+    background-color: red;
+    color: white;
+}
+
+p.perigo {
+    border: 5px solid yellow;
+}
+
+ol.conhecimento li p {
+    background-color: green;
+    color: white;
 }
 
 /*
