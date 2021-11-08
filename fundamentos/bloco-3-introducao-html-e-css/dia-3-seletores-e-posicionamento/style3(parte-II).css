@@ -1,0 +1,39 @@
+div:hover {
+    border: 5px solid red;
+}
+
+div:nth-child(odd){
+    font-style: italic;
+}
+
+div:nth-child(3) {
+    background-color: lightskyblue;
+    font-style: italic;
+    color: blue;
+}
+
+div:nth-child(4) {
+    background-color: black;
+    font-size: large;
+    color:orange;
+}
+
+div:nth-child(5) {
+    font-size:70px;
+    background-color: darkgreen;
+    font-style: italic;
+    color:palegreen;
+}
+
+div:nth-child(6) {
+    background-color: lightgoldenrodyellow;
+    font-size:medium;
+    color:darkred;
+    font-family: monospace;
+}
+
+div:nth-child(7) {
+    background-color: darkblue;
+    font-weight: 200;
+    color:lightgrey;
+}
