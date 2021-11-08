@@ -44,11 +44,15 @@ if (n % 2 === 0){
 /*const l1 = 60;
 const l2 = 50;
 const l3 = 60;
+trianguloValido = true;
+trianguloinvalido = false;
 
 if ((l1 + l2 + l3) === 180){
-  console.log("triângulo equilatero");
-} else {
-  console.log("valores inválidos para o triangulo equilatero");
+  console.log(trianguloValido);
+} else if (l1 < 0 || l2 < 0 || l3 < 0)
+  console.log(trianguloinvalido);
+}else {
+  console.log("Opção não descriminada no exercício.")
 }*/
 
 //ex6. referências para fazer o exercicio https://blog.megajogos.com.br/conheca-as-pecas-do-xadrez/ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
@@ -114,16 +118,20 @@ if (num1 % 2 === 1 || num2 % 2 === 1 || num3 % 2 === 1){
 //ex10.
 /*const vCustoProd = 10;
 const vVendaProd = 100;
-const vCustoTotal = 10 * (20/100) + 10;
+const vCustoTotal = vCustoProd * (20/100) + vCustoProd;
 const vLucroProd = vVendaProd - vCustoTotal;
 const nVendaProd = 10000;
 const lucro = vLucroProd * nVendaProd;
 
-console.log("A empresa terá um lucro de", lucro ,"ao vender dez mil desses produtos");
-*/
+if (vCustoProd < 0 || vVendaProd < 0){
+  console.log("ERRO! Valor de custo ou de venda do produto não pode ser inferior a ZERO.");
+}else {
+  console.log("A empresa terá um lucro de", lucro ,"ao vender dez mil desses produtos");
+}*/
+
 
 //ex11.
-const salBruto = 3000;
+/*const salBruto = 3000;
 let INSS = 0;
 let IR = 0;
 let salLiquido = 0;
@@ -155,3 +163,4 @@ if (salBase <= 1903.98){
 
 salLiquido = salBruto - INSS - IR;
 console.log("Olá, seu salário líquido será:", salLiquido);
+*/
