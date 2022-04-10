@@ -53,9 +53,13 @@
 
    _**Resposta:**_ 
 
-   - ``
+   - `mv trybe_backup.txt /home/developer/trybe-TurmaXP-TriboA/trybe-exercicios/fundamentos/bloco-01/dia-03/unix_tests/backup2`
 
 9. Apague a pasta `backup` .
+
+   _**Resposta:**_ 
+
+   - `rmdir backup`
 
 10. Renomeie a pasta `backup2` para `backup` .
 
