@@ -117,3 +117,9 @@ SQL
    - `tail -n4 skills.txt`
 
 3. Apague todos os arquivos que terminem em `.txt` .
+
+   _**Resposta:**_ 
+
+   - `rm *.txt`
+
+     
