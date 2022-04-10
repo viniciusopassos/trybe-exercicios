@@ -5,17 +5,64 @@
 **Dica** : Para criação de arquivos vazios você pode utilizar o comando `touch nome-do-arquivo.extensao` .
 
 1. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu, crie um diretório chamado `unix_tests` e navegue até ele.
+
+   _**Resposta:**_ 
+
+   - `mkdir unix_tests` 
+   -  `cd unix_tests`
+
 2. Crie um arquivo de texto com o nome `trybe.txt` .
+
+   _**Resposta:**_ 
+
+   - `touch trybe.txt`
+
 3. Crie uma cópia do arquivo `trybe.txt` com nome `trybe_backup.txt` .
+
+   _**Resposta:**_ 
+
+   - `cp trybe.txt trybe_backup.txt`
+
 4. Renomeie o arquivo `trybe.txt` .
+
+   _**Resposta:**_ 
+
+   - `mv trybe.txt trybe1.txt`
+
 5. Dentro de `unix_tests` , crie um novo diretório chamado `backup` .
+
+   _**Resposta:**_ 
+
+   - `mkdir backup`
+
 6. Mova o arquivo `trybe_backup.txt` para o diretório `backup` .
+
+   _**Resposta:**_ 
+
+   - `mv trybe_backup.txt ./backup`
+   - `cd backup`
+
 7. Dentro de `unix_tests` , crie um novo diretório chamado `backup2` .
+
+   _**Resposta:**_ 
+
+   - `cd ..`
+   - `mkdir backup2`
+
 8. Mova o arquivo `trybe_backup.txt` da pasta `backup` para a pasta `backup2` .
+
+   _**Resposta:**_ 
+
+   - ``
+
 9. Apague a pasta `backup` .
+
 10. Renomeie a pasta `backup2` para `backup` .
+
 11. Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+
 12. Apague o diretório `backup` .
+
 13. Limpe o terminal.
 
 **Para os exercícios 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional (através do mouse), um arquivo de texto com o conteúdo abaixo, chamado `skills.txt` :**
