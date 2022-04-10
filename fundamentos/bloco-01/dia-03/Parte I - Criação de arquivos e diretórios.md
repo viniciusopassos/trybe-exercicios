@@ -112,4 +112,8 @@ SQL
 
 2. Mostre na tela as 4 últimas skills do arquivo `skills.txt` .
 
+   _**Resposta:**_ 
+
+   - `tail -n4 skills.txt`
+
 3. Apague todos os arquivos que terminem em `.txt` .
