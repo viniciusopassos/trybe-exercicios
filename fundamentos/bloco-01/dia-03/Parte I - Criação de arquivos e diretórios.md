@@ -69,6 +69,11 @@
 
 11. Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
 
+    _**Resposta:**_ 
+
+    - `pwd`
+    - `ls`
+
 12. Apague o diretório `backup` .
 
 13. Limpe o terminal.
