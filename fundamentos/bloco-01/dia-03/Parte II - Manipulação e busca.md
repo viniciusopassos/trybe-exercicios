@@ -10,6 +10,10 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 1. Mostre todo o conteúdo do arquivo `countries.txt` na tela.
 
+   _**Resposta:**_ 
+
+   - `cat countries.txt` 
+
 2. Mostre o conteúdo de `countries.txt` , página por página, até encontrar a `Zambia` .
 
 3. Mostre novamente o conteúdo de `countries.txt` página por página, mas agora utilize um comando para buscar por `Zambia` .
