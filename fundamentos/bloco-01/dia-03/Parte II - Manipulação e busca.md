@@ -24,7 +24,8 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
    _**Resposta:**_ 
 
-   - `tail countries.txt` 
+   - `less countries.txt`
+   - `/Zambia` 
 
 4. Busque por `Brazil` no `countries.txt` .
 
@@ -33,6 +34,10 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
    - `grep Brazil countries.txt`
 
 5. Busque novamente por `brazil` , mas agora utilizando o *lower case* .
+
+   _**Resposta:**_ 
+
+   - ``grep -i brazil countries.txt``
 
    **Para os próximos exercícios, crie um novo arquivo chamado `phrases.txt` e adicione algumas frases à sua escolha. Não precisa criar o arquivo pelo terminal.**
 
