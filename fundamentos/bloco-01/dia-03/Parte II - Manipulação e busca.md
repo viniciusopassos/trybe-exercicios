@@ -22,6 +22,10 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 3. Mostre novamente o conteúdo de `countries.txt` página por página, mas agora utilize um comando para buscar por `Zambia` .
 
+   _**Resposta:**_ 
+
+   - `tail countries.txt` 
+
 4. Busque por `Brazil` no `countries.txt` .
 
 5. Busque novamente por `brazil` , mas agora utilizando o *lower case* .
