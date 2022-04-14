@@ -61,6 +61,10 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 9. Crie os arquivos `empty.tbt` e `empty.pdf` .
 
+   _**Resposta:**_ 
+
+   - `touch empty.tbt empty.txt`
+
 10. Liste todos os arquivos do diretório `unix_tests` .
 
 11. Liste todos os arquivos que terminem com `txt` .
