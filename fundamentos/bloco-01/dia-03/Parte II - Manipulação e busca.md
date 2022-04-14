@@ -43,6 +43,10 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 6. Busque pelas frases que não contenham a palavra `fox` .
 
+   _**Resposta:**_ 
+
+   - ``grep -iv 'fox' phrases.txt``
+
 7. Conte o número de palavras do arquivo `phrases.txt` .
 
 8. Conte o número de linhas do arquivo `phrases.txt` .
