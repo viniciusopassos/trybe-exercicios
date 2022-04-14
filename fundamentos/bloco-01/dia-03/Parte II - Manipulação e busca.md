@@ -49,6 +49,10 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 7. Conte o número de palavras do arquivo `phrases.txt` .
 
+   _**Resposta:**_ 
+
+   - `wc -w phrases.txt`
+
 8. Conte o número de linhas do arquivo `phrases.txt` .
 
 9. Crie os arquivos `empty.tbt` e `empty.pdf` .
