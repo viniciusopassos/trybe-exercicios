@@ -67,6 +67,10 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 10. Liste todos os arquivos do diretório `unix_tests` .
 
+    _**Resposta:**_ 
+
+    - `ls`
+
 11. Liste todos os arquivos que terminem com `txt` .
 
 12. Liste todos os arquivos que terminem com `tbt` ou `txt` .
