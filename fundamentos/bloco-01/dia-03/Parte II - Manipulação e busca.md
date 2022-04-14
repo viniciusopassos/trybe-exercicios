@@ -85,7 +85,7 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 13. Acesse o manual do comando `ls` .
 
-14. _**Resposta:**_ 
+    _**Resposta:**_ 
 
     - `man ls`
 
