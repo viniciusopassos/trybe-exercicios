@@ -55,6 +55,10 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 8. Conte o número de linhas do arquivo `phrases.txt` .
 
+   _**Resposta:**_ 
+
+   - `wc -l phrases.txt `
+
 9. Crie os arquivos `empty.tbt` e `empty.pdf` .
 
 10. Liste todos os arquivos do diretório `unix_tests` .
