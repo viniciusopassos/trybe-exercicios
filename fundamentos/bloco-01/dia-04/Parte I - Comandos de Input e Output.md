@@ -20,8 +20,24 @@
    - `Unix`
    - `enter`
    - `Bash`
+   - `ctrl + D`
 
 3. Adicione mais 5 itens à sua lista de skills e depois imprima a lista ordenada no terminal. 🤓
+
+   _**Resposta**_
+
+   - `cat >> skill2.txt`
+   - `enter`
+   - `HTML`
+   - `enter`
+   - `CSS`
+   - `enter`
+   - `Bootstrap`
+   - `enter`
+   - ``Javascript`
+   - `enter`
+   - `ReactJS`
+   - `crtl + D`
 
 4. Conte quantas linhas tem o arquivo `skills2.txt` .
 
