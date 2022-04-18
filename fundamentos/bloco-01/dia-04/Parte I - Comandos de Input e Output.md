@@ -82,3 +82,7 @@
     - `cat phrases2.txt countries.txt > bunch_of_things.txt`
 
 11. Ordene o arquivo `bunch_of_things.txt` .
+
+    _**Resposta**_
+
+    - `sort bunch_of_things.txt`
