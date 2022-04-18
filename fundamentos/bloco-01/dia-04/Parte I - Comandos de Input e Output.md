@@ -61,13 +61,19 @@
    - `2ª) Trybe nosso comprometimento é com o seu sucesso.`
    - `enter`
    - `Trybe você tem a opção de pagar apenas quando estiver trabalhando e recebendo uma remuneração mensal mínima.`
-   - `ctrl+c`
+   - `ctrl+D`
 
 7. Conte o número de linhas que contêm as letras `br` .
 
 8. Conte o número de linhas que **não** contêm as letras `br` .
 
 9. Adicione dois nomes de países ao final do arquivo `phrases2.txt` .
+
+   _**Resposta**_
+
+   - `cat >> phrases2.txt`
+   - `Brazil`
+   - `EUA`
 
 10. Crie um novo arquivo chamado `bunch_of_things.txt` com os conteúdos dos arquivos `phrases2.txt` e `countries.txt`
 
