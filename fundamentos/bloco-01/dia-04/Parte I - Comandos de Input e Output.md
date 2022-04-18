@@ -47,6 +47,10 @@
 
 5. Crie um arquivo chamado `top_skills.txt` usando o `skills2.txt` , contendo as 3 primeiras skills em ordem alfabética.
 
+   _**Resposta**_
+
+   - `head -n3 skills2.txt > top_skills.txt`
+
 6. Crie um novo arquivo chamado `phrases2.txt` pelo terminal e adicione algumas frases de sua escolha.
 
 7. Conte o número de linhas que contêm as letras `br` .
