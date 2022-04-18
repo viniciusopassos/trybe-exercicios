@@ -77,4 +77,8 @@
 
 10. Crie um novo arquivo chamado `bunch_of_things.txt` com os conteúdos dos arquivos `phrases2.txt` e `countries.txt`
 
+    _**Resposta**_
+
+    - `cat phrases2.txt countries.txt > bunch_of_things.txt`
+
 11. Ordene o arquivo `bunch_of_things.txt` .
