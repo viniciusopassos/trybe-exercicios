@@ -53,6 +53,16 @@
 
 6. Crie um novo arquivo chamado `phrases2.txt` pelo terminal e adicione algumas frases de sua escolha.
 
+   _**Resposta**_
+
+   - `cat > phrases2.txt`
+   - `1ª) Trybe a porta de entrada‍ para sua carreira em tecnologia.`
+   - `enter`
+   - `2ª) Trybe nosso comprometimento é com o seu sucesso.`
+   - `enter`
+   - `Trybe você tem a opção de pagar apenas quando estiver trabalhando e recebendo uma remuneração mensal mínima.`
+   - `ctrl+c`
+
 7. Conte o número de linhas que contêm as letras `br` .
 
 8. Conte o número de linhas que **não** contêm as letras `br` .
