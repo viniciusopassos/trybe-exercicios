@@ -67,9 +67,13 @@
 
    _**Resposta**_
 
-   - `grep Br phrases2.txt | wc -l`
+   - `grep br phrases2.txt | wc -l`
 
 8. Conte o número de linhas que **não** contêm as letras `br` .
+
+   _**Resposta**_
+
+   - `grep -iv 'br' phrases2.txt | wc -l`
 
 9. Adicione dois nomes de países ao final do arquivo `phrases2.txt` .
 
