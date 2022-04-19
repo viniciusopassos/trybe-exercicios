@@ -40,4 +40,7 @@
 
    > Resultado esperado: `-rw-r--r-- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt`
 
-------
+   _**Resposta**_ 
+
+   -  `chmod 644 bunch_of_things.txt`
+
