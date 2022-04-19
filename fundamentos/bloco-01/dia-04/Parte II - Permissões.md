@@ -32,6 +32,10 @@
 
    > Resultado esperado: `-r--r--r-- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt`
 
+   _**Resposta**_
+
+   - ` chmod 444 bunch_of_things.txt`
+
 5. Volte à permissão do arquivo `bunch_of_things.txt` para a listada inicialmente utilizando o comando `chmod 644 bunch_of_things.txt` .
 
    > Resultado esperado: `-rw-r--r-- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt`
