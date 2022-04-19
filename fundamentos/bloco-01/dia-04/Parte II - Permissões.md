@@ -10,15 +10,15 @@
 
    _**Resposta**_
 
-   - `total 24
-     -rw-rw-r-- 1 developer developer 2073 abr 18 14:13 bunch_of_things.txt
-     -rw-rw-r-- 1 developer developer 1842 abr 11 13:59 countries.txt
-     -rw-rw-r-- 1 developer developer    0 abr 14 16:56 empty.tbt
-     -rw-rw-r-- 1 developer developer    0 abr 14 16:56 empty.txt
-     -rw-rw-r-- 1 developer developer  231 abr 18 14:03 phrases2.txt
-     -rw-rw-r-- 1 developer developer  243 abr 18 13:37 phrases.txt
-     -rw-rw-r-- 1 developer developer   57 abr 15 07:12 skills2.txt
-     -rw-rw-r-- 1 developer developer   19 abr 18 13:27 top_skills.txt`
+   - `total 24`
+     `-rw-rw-r-- 1 developer developer 2073 abr 18 14:13 bunch_of_things.txt`
+     `-rw-rw-r-- 1 developer developer 1842 abr 11 13:59 countries.txt`
+     `-rw-rw-r-- 1 developer developer    0 abr 14 16:56 empty.tbt`
+     `-rw-rw-r-- 1 developer developer    0 abr 14 16:56 empty.txt`
+     `-rw-rw-r-- 1 developer developer  231 abr 18 14:03 phrases2.txt`
+     `-rw-rw-r-- 1 developer developer  243 abr 18 13:37 phrases.txt`
+     `-rw-rw-r-- 1 developer developer   57 abr 15 07:12 skills2.txt`
+     `-rw-rw-r-- 1 developer developer   19 abr 18 13:27 top_skills.txt`
 
 3. Mude a permissão do arquivo `bunch_of_things.txt` para que todos os usuários possam ter acesso à leitura e escrita, e verifique se está correto com o comando `ls -l` ;
 
