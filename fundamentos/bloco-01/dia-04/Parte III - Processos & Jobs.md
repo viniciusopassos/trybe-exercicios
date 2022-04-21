@@ -64,4 +64,11 @@
 
 9. Termine a execução de todos os processos `sleep` ~~(mate os processos) ~~.
 
+   _**Resposta**_
+
+   - `ps`
+   - `kill -9 PID`
+   - `kill -9 PID`
+   - `kill -9 PID`
+
 ------
