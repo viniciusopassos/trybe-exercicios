@@ -38,6 +38,14 @@
 
    > Você deve criá-los em *foreground* (sem usar o `&` ) e suspendê-los (apertando `ctrl+z` ) após cada um começar a executar.
 
+   _**Resposta**_
+
+   - `sleep 300 &`
+   - `sleep 200`
+   - `ctrl + Z`
+   - `sleep 100`
+   - `ctrl + Z`
+
 7. Verifique que apenas o processo `sleep 300` está em execução com o comando `jobs` . Suspenda a execução desse processo.
 
    > Você vai precisar trazer o processo para *foreground* ( `fg` ) e suspendê-lo ( `ctrl+z` ), ou enviar um sinal.
