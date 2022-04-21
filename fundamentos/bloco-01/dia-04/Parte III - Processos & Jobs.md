@@ -50,6 +50,12 @@
 
    > Você vai precisar trazer o processo para *foreground* ( `fg` ) e suspendê-lo ( `ctrl+z` ), ou enviar um sinal.
 
+   _**Resposta**_
+
+   - `jobs`
+   - `fg`
+   - `ctrl + Z`
+
 8. Retome a execução do processo `sleep 100` em background com o comando `bg` .
 
 9. Termine a execução de todos os processos `sleep` ~~(mate os processos) ~~.
