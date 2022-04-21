@@ -22,6 +22,12 @@
 
 4. Execute novamente o comando `sleep 30` , mas agora sem o `&` . Depois, faça com que ele continue executando em background;
 
+   _**Resposta**_
+
+   - `sleep 30`
+   - `ctrl + Z`
+   - `bg`
+
 5. Crie um processo em background que rode o comando `sleep` por 300 segundos.
 
 6. Crie mais dois processos que rodem o comando `sleep` por 200 e 100 segundos, respectivamente.
