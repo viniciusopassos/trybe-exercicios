@@ -53,10 +53,14 @@
    _**Resposta**_
 
    - `jobs`
-   - `fg`
+   - `fg %1` 
    - `ctrl + Z`
 
 8. Retome a execução do processo `sleep 100` em background com o comando `bg` .
+
+   _**Resposta**_
+
+   - `bg %3`
 
 9. Termine a execução de todos os processos `sleep` ~~(mate os processos) ~~.
 
