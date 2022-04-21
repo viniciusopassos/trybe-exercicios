@@ -30,6 +30,10 @@
 
 5. Crie um processo em background que rode o comando `sleep` por 300 segundos.
 
+   _**Resposta**_
+
+   - `sleep 300 &`
+
 6. Crie mais dois processos que rodem o comando `sleep` por 200 e 100 segundos, respectivamente.
 
    > Você deve criá-los em *foreground* (sem usar o `&` ) e suspendê-los (apertando `ctrl+z` ) após cada um começar a executar.
