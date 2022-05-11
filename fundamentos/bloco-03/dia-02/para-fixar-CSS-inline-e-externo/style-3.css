@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+p {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#li-amarelo {
+    background-color: rgba(255, 255, 0, 0.726);
+}
+
+#li-vermelho {
+    background-color: rgba(255, 0, 0, 0.637);
+}
+
+#li-marrom {
+    background-color: rgba(165, 42, 42, 0.555);
+}
+
+.cores {
+    background-color: #ebe8e8;
+    font-style: italic;
+    line-height: 40px;
+    text-align: justify;
+    text-decoration: line-through;
+}
