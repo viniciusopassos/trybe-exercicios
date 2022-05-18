@@ -1,10 +1,19 @@
+body {
+    background-color: #d4f7dc
+}
+
+header {
+    background-color: #e5ead4;
+    padding: 40px;
+}
+
 h1, p {
     text-align: center;
 }
 
 div {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 div:hover {
@@ -18,4 +27,32 @@ div:hover {
 
 .impar {
     font-style: italic;
+}
+
+#primeira {
+    background-color: #45936c;
+    color: #e5ead4;
+    font-size: 25px;
+}
+
+#segunda {
+    background-color: #1f0a1d;
+    color: #e5ead4;
+    font-size: 48px;
+}
+
+#terca {
+    background-color: #e5ead4;
+}
+
+#quarta {
+    background-color: #334f53;
+    color: #e5ead4;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#quinta {
+    background-color: #9acc77;
+    color: #e5ead4;
+    font-family:'Courier New', Courier, monospace;
 }
