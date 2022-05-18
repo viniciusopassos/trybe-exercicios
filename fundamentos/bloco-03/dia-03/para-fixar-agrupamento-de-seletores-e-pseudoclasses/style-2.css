@@ -15,3 +15,7 @@ div:hover {
     font-family:'Courier New', Courier, monospace;
     padding: 40px;
 }
+
+.impar {
+    font-style: italic;
+}
