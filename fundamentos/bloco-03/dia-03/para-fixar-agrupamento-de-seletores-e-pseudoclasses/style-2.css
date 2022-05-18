@@ -11,3 +11,7 @@ div:hover {
     border: solid 2px;
 }
 
+.terceira {
+    font-family:'Courier New', Courier, monospace;
+    padding: 40px;
+}
