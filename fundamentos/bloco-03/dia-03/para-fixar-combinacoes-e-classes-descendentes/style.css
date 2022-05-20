@@ -12,13 +12,19 @@ div {
     text-align: center
 }
 
+li {
+    font-size: 20px;
+}
+
 .impar {
     background-color: #ffc018;
     text-transform: uppercase;
+    font-weight: bold   ;
 }
 
 .par {
     background-color: #b3c631;
+    font-weight: bold;
 }
 
 #titulo {
