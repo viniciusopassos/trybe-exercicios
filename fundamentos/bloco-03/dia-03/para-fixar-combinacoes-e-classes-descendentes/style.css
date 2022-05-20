@@ -1,0 +1,12 @@
+body {
+    background-color: #f8fef4
+}
+
+.impar {
+    background-color: #ffc018;
+    text-transform: uppercase;
+}
+
+.par {
+    background-color: #b3c631;
+}
