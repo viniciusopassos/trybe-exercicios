@@ -27,7 +27,15 @@ li {
     font-weight: bold;
 }
 
+.primeiras {
+    color: rgba(0, 0, 255, 0.8);
+}
+
 #titulo {
     font-size: 40px;
     border: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+#java {
+    background-color: pink;
 }
