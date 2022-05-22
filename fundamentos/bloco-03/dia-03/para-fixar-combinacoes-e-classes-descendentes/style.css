@@ -39,3 +39,29 @@ li {
 #java {
     background-color: pink;
 }
+
+#stackover-li:hover {
+    background-color: rgba(255, 69, 1, 0.9);
+    font-weight: bold;
+}
+
+#w3schools-li:hover {
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+#mdn-li:hover {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+
+#devdocs-li:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#trybe-li:hover {
+    background-color: green; 
+    font-weight: bold;
+}
