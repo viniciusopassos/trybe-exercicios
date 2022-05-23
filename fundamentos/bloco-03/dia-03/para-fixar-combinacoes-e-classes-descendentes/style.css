@@ -1,0 +1,67 @@
+body {
+    background-color: #f8fef4;
+    text-align: center
+}
+
+h1, h2, h3, h4 {
+    color: rgba(255, 0, 0, 0.637);
+}
+
+div {
+    background-color: #fff5d6;
+    text-align: center
+}
+
+li {
+    font-size: 20px;
+}
+
+.impar {
+    background-color: #ffc018;
+    text-transform: uppercase;
+    font-weight: bold   ;
+}
+
+.par {
+    background-color: #b3c631;
+    font-weight: bold;
+}
+
+.primeiras {
+    color: rgba(0, 0, 255, 0.8);
+}
+
+#titulo {
+    font-size: 40px;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+#java {
+    background-color: pink;
+}
+
+#stackover-li:hover {
+    background-color: rgba(255, 69, 1, 0.9);
+    font-weight: bold;
+}
+
+#w3schools-li:hover {
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+#mdn-li:hover {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+
+#devdocs-li:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#trybe-li:hover {
+    background-color: green; 
+    font-weight: bold;
+}
