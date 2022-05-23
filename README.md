@@ -19,10 +19,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 #####  Bloco 3: Introdução à HTML e CSS :hourglass_flowing_sand:
 
-- [x] 3-1: _O que é e para que serve?_
-- [x] 3-2: _Entendendo os comandos_
-- [ ] 3-3: _Internet - Entendendo como ela funciona_
-- [ ] 3-4: _Entendendo os comandos_
+- [x] 3-1: _HTML & CSS - Estruturas de página_
+- [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [ ] 3-4: _HTML Semântico_
 
 ---
 
