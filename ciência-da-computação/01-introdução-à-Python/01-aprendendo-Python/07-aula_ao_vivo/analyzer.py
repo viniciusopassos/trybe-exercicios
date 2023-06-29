@@ -25,4 +25,6 @@ text_to_analyzer = (
     "Praesent vel facilisis augue."
 )
 
+print(type(text_to_analyzer))
+
 print(analyse(text_to_analyzer))
